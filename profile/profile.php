@@ -12,8 +12,8 @@
         <script src="https://kit.fontawesome.com/c97e7a93d8.js" crossorigin="anonymous"></script>
 
         <!-- My Styles -->
-        <link rel="stylesheet" href="stylesheets/style.css">
-
+        <link rel="stylesheet" href="css/style.css">
+        
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="images/favicon.png">
     </head>
