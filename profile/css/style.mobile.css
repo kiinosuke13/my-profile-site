@@ -58,3 +58,94 @@ h3 {
 .main-hero-img {
     display: none;
 }
+
+/* Main - Works */
+.main-works {
+    padding: 80px 0;
+}
+
+.main-works-item {
+    margin-bottom: 50px;
+}
+
+.main-works-item-img {
+    margin-bottom: 40px;
+}
+
+.main-works-item-text p:last-of-type {
+    margin-bottom: 30px;
+}
+
+/* Main - About */
+.main-about {
+    padding: 80px 0 60px;
+}
+
+.main-about-img {
+    text-align: center;
+}
+
+.main-about-img .mobile {
+    max-width: 200px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+}
+
+.main-about-img .tablet-and-up {
+    display: none;
+}
+
+.main-about-description,
+.main-about-addition-skills {
+    margin-bottom: 30px;
+}
+
+.main-about-addition-skills ul,
+.main-about-addition-skills li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    padding: 60px 0 10px;
+}
+
+.footer-form {
+    margin-bottom: 80px;
+}
+
+.footer-form-input {
+    margin-bottom: 10px;
+}
+
+.footer-form-textarea {
+    margin-bottom: 20px;
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-info-nav,
+.footer-info-follow {
+    margin-bottom: 40px;
+}
+
+.footer-info-nav {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-info-nav-menu ul {
+    display: flex;
+}
+
+.footer-info-nav-menu li {
+    margin-left: 20px;
+}
+
+.footer-info-nav-img {
+    width: 60px;
+}

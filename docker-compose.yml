@@ -4,7 +4,7 @@ services:
  php:
   image: php:7.2-apache
   ports: 
-  - 8004:80
+  - 8002:80
   volumes:
   - ./:/var/www/html
   - ./form:/var/www/html/form
@@ -16,12 +16,12 @@ services:
   image: mysql:5.7
   restart: always
   ports:
-  - "3304:3308"
+  - "4306:3308"
   environment:
-    MYSQL_ROOT_PASSWORD: "myrootpassword"
-    MYSQL_DATABASE: "phpdb"
-    MYSQL_USER: "phpdb"
-    MYSQL_PASSWORD: "phppass"
+    MYSQL_ROOT_PASSWORD: myrootpassword
+    MYSQL_DATABASE: phpdb
+    MYSQL_USER: phpuser
+    MYSQL_PASSWORD: phppass
 
 
 
